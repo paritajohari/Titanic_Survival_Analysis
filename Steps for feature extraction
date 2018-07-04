@@ -1,0 +1,10 @@
+Feature Extraction and correlation:
+
+1. Identify the datatype of feature columns like numerical, categorical, alphanumeric, continous and discrete.
+2. Identify the correlation between individual numerical columns and output feature.
+3. Similary do for other columns.
+4. Drop feature which are not in relation with output feature.
+5. Create a new feature extracting from the existing. Like create a age group from continous age feature.
+6. After extracting new feature can remove the original feature.
+7. Map the categorical feature to numeric data values. Like for sex map {'female':1, 'male':0}.
+8. 
